@@ -1,8 +1,11 @@
-name: pandapower
+name: pandapower_final
 channels:
   - defaults
 dependencies:
-  - python=3.10.11
+  - python=3.8
+  - ipykernel
+  - nbformat
+  - pip
   - pip:
     - pandapower
     - plotly
@@ -11,4 +14,4 @@ dependencies:
     - networkx
     - numpy
     - seaborn
-    - ipykernel
+    - openpyxl

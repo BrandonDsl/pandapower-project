@@ -1,8 +1,0 @@
-pandapower
-plotly
-matplotlib
-numba
-networkx
-numpy
-seaborn
-ipykernel

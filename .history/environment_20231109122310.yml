@@ -1,0 +1,14 @@
+name: pandapower
+channels:
+  - defaults
+dependencies:
+  - python=3.10.11
+  - pip:
+    - pandapower
+    - plotly
+    - matplotlib
+    - numba
+    - networkx
+    - numpy
+    - seaborn
+    - ipykernel
